@@ -92,3 +92,27 @@ html, body {
         background-image: linear-gradient(360deg, rgb(229, 255, 0), rgb(1, 255, 1));
     }
 }
+
+@media (max-width: 600px) {
+    .main{
+        padding: 5vh 8vw;
+    }
+    
+    .container{
+        min-height: 75vh;
+    }
+    .container h1{
+        font-size: 4vh;
+    }
+    .textarea{
+        flex-direction: column;
+        gap: 1vh;
+    }
+    
+    #btn{
+        position: absolute;
+        top: 85%;
+        left: 5%;
+    }
+     
+}
